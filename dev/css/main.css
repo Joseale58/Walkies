@@ -8,3 +8,26 @@
 .ocultar{
     display: none;
 }
+
+.fondo_usuario{
+    width: 390px;
+    height: 297px;
+    background: rgb(55, 55, 55);
+    border-radius: 0 0 190px 200px;
+}
+.linea_1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.linea_1 p{
+    background-color: rgb(159, 159, 159);
+    list-style: none;
+    margin: 50px;
+    padding: 10px;
+}
+
+.linea_2{
+    display: flex;
+    align-items:end;
+}
