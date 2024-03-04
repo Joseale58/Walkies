@@ -3,8 +3,123 @@
     width: 385px;
     height: 760px;
     border: 1px solid black;
+    font-family: Arial;
+    overflow: auto;
 }
 
 .ocultar{
     display: none;
+}
+
+.isotipo{
+    width: 100%;
+}
+
+.walkies{
+    margin-top: 0;
+    text-align: center;
+    color: #198AAC;
+    font-size: 200%;
+    font-style: bold;
+}
+
+.header{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.header h2,
+.header img {
+    display: inline;
+}
+
+.saludo{
+    margin-left: 13%;
+    font-size: 200%;
+}
+.icono{
+    width: 20%;
+    margin-right: 7%;
+}
+
+.mapa{
+    margin-top: 10%;
+    margin-left: 27.5px;
+    height: 330px;
+    width: 330px;
+    background-image: url('../resources/mapa.png'); /* Ruta de la imagen */
+    background-size: cover; /* Hace que la imagen cubra todo el div */
+    background-position: center; /* Posiciona la imagen en el centro del div */
+    border-radius: 10px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.paseadores{
+    height: 40%;
+    width: 330px;
+    margin-left: 27.5px;
+    overflow: auto;
+}
+
+.tarjeta {
+    margin-top: 10%;
+    margin-left: 5%;
+    height: 100px;
+    width: 95%;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #D9D9D9;
+    display: flex; /* Utilizamos flexbox */
+    align-items: center; /* Centramos verticalmente */
+}
+
+.foto {
+    width: 70px;
+    height: 70px;
+    background-color: #969696;
+    border-radius: 50%;
+    margin-left: 20px; /* Agregamos un margen a la derecha para separar el círculo del contenido de la tarjeta */
+}
+
+.informacion {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.nombre {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.detalle {
+    display: flex;
+}
+
+.calificacion{
+    margin-left: 80px;
+}
+
+.carrusel{
+    height: 200px;
+    width: 90%;
+    margin-left: 7%;
+    background-image: url("../resources/carrusel.png");
+    background-size: cover; /* Hace que la imagen cubra todo el div */
+    background-position: center; /* Posiciona la imagen en el centro del div */
+    border-radius: 5px;
+    
+}
+
+.footer{
+    background-color: #D9D9D9;
+    height: 20%;
+    display: flex; /* Usamos flexbox */
+    justify-content: center; /* Alineamos horizontalmente */
+    align-items: center; /* Alineamos verticalmente */
 }
