@@ -3,6 +3,7 @@
     width: 385px;
     height: 760px;
     border: 1px solid black;
+    
 }
 
 .ocultar{
@@ -71,21 +72,68 @@
 
 }
 
+
 .boton_agendar{
     width: 150px;
 }
 
+/*Vista de log in*/
+
+
 .contenedores_login{
     display: flex;
+    margin-top: -50px;
     flex-direction: column;
-    justify-content: left;
-    background: red;
-    width: 300px;
+    align-items: center;
+    text-align: center;
+    width: 385px;
     height: 300px;
     justify-content: center;
-    align-content: center;
+    
+}
+.contenedores_login input {
+    margin-bottom: 25px; 
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    background: rgb(223, 222, 222);
+    border-color: aliceblue;
 }
 
-#usuario, #contraseña{
-    width: 200px;
+.login{
+    display: flex;
+    justify-content: center;
+    font-size: 1.8em;
+    margin-top: 130px;
+}
+
+.google_apple div{
+  height: 40px;
+  width: 40px;
+  background: rgb(223, 222, 222);
+  border-radius: 50%;
+  display: inline-block;
+  margin-inline: 20px; 
+  margin-top: -60px;
+}
+
+.google_apple{
+    display: flex;
+    justify-content: center;
+}
+
+.login_inferior{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.login_inferior button{
+    width: 130px;
+    height: 40px;
+    border-radius: 0px;
+    background: rgb(223, 222, 222);
+
 }
