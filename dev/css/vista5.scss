@@ -47,9 +47,13 @@ table {
   .hora_agrupacion {
     display: flex;
     justify-content: space-around;
-    
     p {
       margin-top: 100px;
+    }
+    select{
+      margin-top:95px;
+      height: 40px;
+      width: 80px;
     }
   }
   
