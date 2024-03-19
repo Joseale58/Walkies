@@ -1,0 +1,10 @@
+.seccion{
+    width: 385px;
+    height: 760px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;    
+}
+@import 'vista3.scss';
+@import 'vista4.scss';
+@import 'vista5.scss';

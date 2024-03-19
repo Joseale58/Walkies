@@ -1,0 +1,66 @@
+/*Vista de log in*/
+
+
+.contenedores_login{
+    display: flex;
+    margin-top: -50px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 385px;
+    height: 300px;
+    justify-content: center;
+    
+}
+.contenedores_login input {
+    margin-bottom: 25px; 
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    background: rgb(223, 222, 222);
+    border-color: aliceblue;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    font-size: 1.8em;
+    margin-top: 130px;
+}
+
+.google_apple div{
+  height: 40px;
+  width: 40px;
+  background: rgb(223, 222, 222);
+  border-radius: 50%;
+  display: inline-block;
+  margin-inline: 20px; 
+  margin-top: -60px;
+}
+
+.google_apple{
+    display: flex;
+    justify-content: center;
+    img{
+        margin-left: 7px;
+        margin-top: 5px;
+    }
+}
+
+
+
+.login_inferior{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.login_inferior button{
+    width: 130px;
+    height: 40px;
+    border-radius: 0px;
+    background: rgb(223, 222, 222);
+
+}
