@@ -1,0 +1,15 @@
+
+.seccion{
+    width: 385px;
+    height: 760px;
+    border: 1px solid black;
+    font-family: Arial;
+    overflow: auto;
+}
+
+.ocultar{
+    display: none;
+}
+
+@import "vista1.scss";
+@import "vista2.scss";
