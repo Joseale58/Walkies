@@ -1,0 +1,125 @@
+.seccion {
+  border: 1px solid #000;
+  width: 385px;
+  height: 760px;
+  font-family: Arial;
+  overflow: auto;
+}
+
+.ocultar {
+  display: none;
+}
+
+.isotipo {
+  width: 100%;
+}
+
+.walkies {
+  text-align: center;
+  color: #198aac;
+  font-size: 200%;
+  font-style: bold;
+  margin-top: 0;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 10%;
+  display: flex;
+}
+
+.header h2, .header img {
+  display: inline;
+}
+
+.saludo {
+  margin-left: 13%;
+  font-size: 200%;
+}
+
+.icono {
+  width: 20%;
+  margin-right: 7%;
+}
+
+.mapa {
+  background-image: url("mapa.fefa6a39.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  width: 330px;
+  height: 330px;
+  margin-top: 10%;
+  margin-left: 27.5px;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.paseadores {
+  width: 330px;
+  height: 40%;
+  margin-left: 27.5px;
+  overflow: auto;
+}
+
+.tarjeta {
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  align-items: center;
+  width: 95%;
+  height: 100px;
+  margin-top: 10%;
+  margin-left: 5%;
+  display: flex;
+}
+
+.foto {
+  background-color: #969696;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-left: 20px;
+}
+
+.informacion {
+  flex-direction: column;
+  margin-left: 10px;
+  display: flex;
+}
+
+.nombre {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.detalle {
+  display: flex;
+}
+
+.calificacion {
+  margin-left: 80px;
+}
+
+.carrusel {
+  background-image: url("carrusel.d8f959bf.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  width: 90%;
+  height: 200px;
+  margin-left: 7%;
+}
+
+.footer {
+  background-color: #d9d9d9;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.0c1cd621.css.map */
