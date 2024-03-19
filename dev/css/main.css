@@ -94,3 +94,14 @@
         }
     }
 }
+
+#seccion_8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 3rem;
+
+    button {
+       align-self: self-start; 
+    }
+}
