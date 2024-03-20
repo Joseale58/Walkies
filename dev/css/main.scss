@@ -2,23 +2,11 @@
     width: 385px;
     height: 760px;
     border: 1px solid black;
-    font-family: Arial;
     overflow: auto;
     display: flex;
     flex-direction: column;
 }
 
-/*Vista paseadores*/
-
-.arrow_button{
-    position: absolute;
-    width: 42px;
-    height: 42px;
-    background: none;
-    border: 0px;
-    font-family: Arial;
-    overflow: auto;
-}
 @import "vista1.scss";
 @import "vista2.scss";
 @import 'vista3.scss';
