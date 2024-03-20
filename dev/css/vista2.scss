@@ -1,3 +1,12 @@
+@import './colors.scss';
+
+#seccion_2{
+    border: 1px solid blue;
+    overflow: auto;
+    display: block; /* Cambiar de flex a bloque (o cualquier otro valor según tu necesidad) */
+    flex-direction: initial;
+}
+
 .header{
     margin-top: 10%;
     width: 100%;
@@ -15,9 +24,19 @@
     margin-left: 13%;
     font-size: 200%;
 }
-.icono{
-    width: 20%;
-    margin-right: 7%;
+.icono {
+    display: inline-block; /* Hace que el contenedor se comporte como un bloque en línea */
+    width: 50px; /* Ancho del contenedor */
+    height: 50px; /* Altura del contenedor */
+    overflow: hidden; /* Oculta cualquier parte del icono que sobresalga del contenedor */
+    border-radius: 50%; /* Borde redondeado para hacer un círculo */
+}
+
+/* Estilos para la imagen del icono */
+.icono img {
+    width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+    display: block; /* Permite alinear la imagen correctamente */
 }
 
 .mapa{
@@ -48,7 +67,7 @@
     height: 100px;
     width: 95%;
     border-radius: 5px 5px 5px 5px;
-    background-color: #D9D9D9;
+    background-color: $primary;
     display: flex; /* Utilizamos flexbox */
     align-items: center; /* Centramos verticalmente */
 }
@@ -58,7 +77,16 @@
     height: 70px;
     background-color: #969696;
     border-radius: 50%;
-    margin-left: 20px; /* Agregamos un margen a la derecha para separar el círculo del contenido de la tarjeta */
+    margin-left: 20px;
+    overflow: hidden; 
+    display: flex; /* Permite centrar la imagen vertical y horizontalmente */
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+}
+
+.foto img {
+    max-width: 200%; /* Asegura que la imagen no sea más grande que el contenedor */
+    max-height: auto; /* Asegura que la imagen no sea más grande que el contenedor */
 }
 
 .informacion {
@@ -92,7 +120,7 @@
 }
 
 .footer{
-    background-color: #D9D9D9;
+    background-color: $dark-gray;
     height: 20%;
     display: flex; /* Usamos flexbox */
     justify-content: center; /* Alineamos horizontalmente */
