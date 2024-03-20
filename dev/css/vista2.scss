@@ -1,9 +1,10 @@
 @import './colors.scss';
+@import './fonts.scss';
 
 #seccion_2{
     border: 1px solid blue;
     overflow: auto;
-    display: block; /* Cambiar de flex a bloque (o cualquier otro valor según tu necesidad) */
+    display: block; 
     flex-direction: initial;
 }
 
@@ -13,6 +14,15 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
+    h2{
+        font-family: 'Poppins-Lightbold';
+        font-size: 23px;
+        margin-left: 30px;
+        color: rgb(13, 118, 122);
+    }
+    a{
+        margin-right: 25px;
+    }
 }
 
 .header h2,
@@ -20,16 +30,13 @@
     display: inline;
 }
 
-.saludo{
-    margin-left: 13%;
-    font-size: 200%;
-}
 .icono {
     display: inline-block; /* Hace que el contenedor se comporte como un bloque en línea */
-    width: 50px; /* Ancho del contenedor */
-    height: 50px; /* Altura del contenedor */
+    width: 60px; /* Ancho del contenedor */
+    height: 60px; /* Altura del contenedor */
     overflow: hidden; /* Oculta cualquier parte del icono que sobresalga del contenedor */
     border-radius: 50%; /* Borde redondeado para hacer un círculo */
+    border: 5px solid $primary;
 }
 
 /* Estilos para la imagen del icono */
@@ -48,15 +55,19 @@
     background-size: cover; /* Hace que la imagen cubra todo el div */
     background-position: center; /* Posiciona la imagen en el centro del div */
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
 }
 
 .titulo{
     text-align: center;
+    font-family: 'Poppins-Lightbold';
+    color: rgb(13, 118, 122);
 }
 
 .paseadores{
     height: 40%;
     width: 330px;
+    margin-top: -20px;
     margin-left: 27.5px;
     overflow: auto;
 }
@@ -66,10 +77,11 @@
     margin-left: 5%;
     height: 100px;
     width: 95%;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 30px;
     background-color: $primary;
     display: flex; /* Utilizamos flexbox */
     align-items: center; /* Centramos verticalmente */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
 }
 
 .foto {
@@ -93,6 +105,8 @@
     display: flex;
     flex-direction: column;
     margin-left: 10px;
+    color: white;
+    font-family: 'Poppins-SemiBold';
 }
 
 .nombre {
@@ -106,6 +120,7 @@
 
 .calificacion{
     margin-left: 80px;
+    margin-right: 14px;
 }
 
 .carrusel{
@@ -116,15 +131,19 @@
     background-size: cover; /* Hace que la imagen cubra todo el div */
     background-position: center; /* Posiciona la imagen en el centro del div */
     border-radius: 5px;
-    
 }
 
 .footer{
-    background-color: $dark-gray;
+    background-color: rgb(192, 209, 255);;
     height: 20%;
     display: flex; /* Usamos flexbox */
     justify-content: center; /* Alineamos horizontalmente */
     align-items: center; /* Alineamos verticalmente */
+    flex-direction: column;
+    p{
+        font-family: 'Poppins-Light'; 
+        margin-top: -8px;
+    }
 }
 
 a {
