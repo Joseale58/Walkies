@@ -1,0 +1,52 @@
+#seccion_8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    button {
+      align-self: self-start;
+      background: none;
+      border: none;
+      margin-top: 1rem;
+      margin-left: 1rem;
+    }
+  
+    .confirmation {
+      font-size: 24px;
+      font-weight: 600;
+    }
+  
+    span, h3, ul {
+      align-self: self-start;
+      margin-left: 3rem;
+      margin-bottom: 10px;
+    }
+    ul {
+      background-color: gray;
+      width: 60%;
+      border-radius: 5px;
+      padding: 1rem 2rem;
+    }
+  
+    .usercard {
+      display: flex;
+      background-color: #D9D9D9;
+      border-radius: 5px;
+      width: 70%;
+      padding: 5px 10px;
+      margin: 4rem 0;
+      align-items: center;
+      p {
+          font-size: 16px;
+      }
+  
+      .userphoto {
+          width: 58px;
+          height: 58px;
+          border-radius: 100%;
+          background-color: gray;
+          margin-right: 1rem;
+      }
+    }
+  }
+  
