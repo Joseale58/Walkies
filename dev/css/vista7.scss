@@ -1,47 +1,66 @@
+/* Vista editProfile */
+@import "./colors.scss";
+@import "./fonts.scss";
 
 .editProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 3rem;
+
+  input {
+    margin-bottom: 25px;
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    background: rgb(249, 249, 249);
+    border-color: aliceblue;
+    font-family: Poppins-Light;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+  }
+
+  .row_apart {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem 3rem;
-
-    input {
-        margin-bottom: 25px; 
-        text-align: center;
-        width: 250px;
-        height: 40px;
-        background: rgb(223, 222, 222);
-        border-color: aliceblue;
+    justify-content: space-between;
+    width: 345px;
+    margin-bottom: 25px;
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
     }
 
-    .row_apart {
+    .done {
+        background-color: $primary;
+        border-radius: 5px;
         display: flex;
-        justify-content: space-between;
-        width: 345px;
-        margin-bottom: 25px;
-        button {
-            background: none;
-            border: none;
-            cursor: pointer;
-        }
+        justify-content: center;
+        align-items: center;
+        padding: 0 0.3rem;
     }
+  }
 
-    .PFP {
-        width: 254px;
-        height: 254px;
-        border-radius: 100%;
-        background-color: gray;
-        margin-bottom: 25px;
-        position: relative;
-        button {
-            width: 86px;
-            height: 86px;
-            border-radius: 100%;
-            border: 1px solid black;
-            position: absolute;
-            bottom: 0px;
-            right: 0px;
-            cursor: pointer;
-        }
+  .PFP {
+    width: 254px;
+    height: 254px;
+    border-radius: 100%;
+    background-image: url("https://holatelcel.com/wp-content/uploads/2022/08/hombre-estudiante-universitario-696x696.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 25px;
+    position: relative;
+    button {
+      width: 86px;
+      background-color: $yellow;
+      height: 86px;
+      border-radius: 100%;
+      border: 1px solid black;
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      font-family: Poppins-semibold;
+      cursor: pointer;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
     }
+  }
 }
