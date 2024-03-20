@@ -1,59 +1,76 @@
 /* vista agendar */
+@import './colors.scss';
+@import './fonts.scss';
+
 table {
-    width: 80%;
-    border-collapse: collapse;
-    margin-top: 90px;
-    align-self: center;
-    
-    th, td {
-      border: 1px solid #dddddd;
-      text-align: center;
-      padding: 8px;
-    }
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 90px;
+  align-self: center;
   
-    th {
-      background-color: #f2f2f2;
-    }
-  
-    caption {
-      font-size: 1.5em;
-      margin-bottom: 10px;
-    }
+  th, td {
+    border: 1px solid $dark-blue;
+    text-align: center;
+    padding: 8px;
   }
-  
-  .botones-l1 {
-    margin-top: 90px;
-    width: 100px;
-    height: 40px;
+
+  th {
+    background-color: $primary;
+    color: rgb(2, 49, 72);
   }
-  
-  #mas, #menos {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+
+  caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: $brown;
+    font-family: 'Poppins-SemiBold'; 
   }
-  
-  #agendar {
-    align-items: center;
-    margin-top: 50px;
-    width: 200px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
+}
+
+.botones-l1 {
+  margin-top: 90px;
+  width: 100px;
+  height: 40px;
+}
+
+#mas, #menos {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background: $primary;
+  color: black;
+  font-family: 'Poppins-SemiBold';
+}
+
+#agendar {
+  align-items: center;
+  margin-top: 50px;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  align-self: center;
+  background: $yellow;
+  font-family: 'Poppins-SemiBold';
+  font-size: 17px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+
+}
+
+.hora_agrupacion {
+  display: flex;
+  justify-content: space-around;
+  p {
     margin-top: 100px;
-    align-self: center;
   }
-  
-  .hora_agrupacion {
-    display: flex;
-    justify-content: space-around;
-    p {
-      margin-top: 100px;
-    }
-    select{
-      margin-top:95px;
-      height: 40px;
-      width: 80px;
-    }
+  select{
+    margin-top:90px;
+    height: 40px;
+    width: 100px;
+    background: rgb(162, 218, 232);
+    border-radius: 10px;
+    border-color: white;
   }
-  
+}
