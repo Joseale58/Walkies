@@ -4,3 +4,4 @@ build/
 *.log
 .DS_store
 .parcel-cache/
+.cache/
